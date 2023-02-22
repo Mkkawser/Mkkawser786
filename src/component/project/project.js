@@ -13,7 +13,7 @@ const Project = () => {
         <div className="relative">
           <div className="w-[80%] mx-auto">
             {/* Project Image */}
-            <img src="/img/unsplash.jpg" alt="" />
+            <img src={`/img/unsplash.jpg`} alt="project" />
 
             {/* Project Name & Link */}
             <div className="absolute flex flex-col items-center bottom-0 mx-auto w-[80%] bg-[#9883834a]">
@@ -29,13 +29,16 @@ const Project = () => {
 
                 {/* Live */}
                 <p>
-                  <img className="w-[25px]" src="/img/live-icon.png" alt="" />
+                  <img
+                    className="w-[25px]"
+                    src="/img/live-icon.png"
+                    alt="live"
+                  />
                 </p>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
     </>
   );

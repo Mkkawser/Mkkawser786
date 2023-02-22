@@ -16,12 +16,17 @@ const Navbar = () => {
               className="text-[#eda62f]"
               target={"_blank"}
               href="https://www.linkedin.com/in/mkkawser1/"
+              rel="noreferrer"
             >
               <FaLinkedinIn className="hover:text-white" />
             </a>
 
             {/* Github Icon */}
-            <a target={"_blank"} href="https://github.com/mkkawser/">
+            <a
+              href="https://github.com/mkkawser/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               <FaGithub className="hover:text-[#d0d183]" />
             </a>
 
@@ -30,6 +35,7 @@ const Navbar = () => {
               href="https://www.facebook.com"
               className="text-[#33859d]"
               target={"_blank"}
+              rel="noreferrer"
             >
               <ImFacebook className="hover:text-white" />
             </a>

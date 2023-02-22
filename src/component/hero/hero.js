@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="font-OpenSans bg-[#202b35] p-6 sm:grid sm:grid-cols-[40%_60%] sm:gap-4 sm:items-center">
         <div className="img mx-auto pl-2 pt-2">
           <img
+            src={`/img/unsplash.jpg`}
             className="rounded-full w-[250px] h-[250px]"
-            src="/img/unsplash.jpg"
-            alt="My Picture"
+            alt="unsplash"
           />
         </div>
         <div className="pl-2 pt-4 font-OpenSans text-[#de930c]">

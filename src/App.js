@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./component/footer/footer";
+import Form from "./component/form/form";
+import Hero from "./component/hero/hero";
+import Navbar from "./component/navbar/navbar";
+import Project from "./component/project/project";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Project />
+      <Form />
+      <Footer/>
+    </>
   );
 }
-
+// https://alex-kelin.onrender.com/
 export default App;

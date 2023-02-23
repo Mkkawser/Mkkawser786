@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImFacebook } from "react-icons/im";
 import { BsToggleOn } from "react-icons/bs";
+import { IoMailUnread } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -28,6 +29,15 @@ const Navbar = () => {
               rel="noreferrer"
             >
               <FaGithub className="hover:text-[#d0d183]" />
+            </a>
+
+            {/* Mail Icon */}
+            <a
+              href={`mailto:irumorgan420@gmail.com`}
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <IoMailUnread className="hover:text-[#fff] text-[#69d89fa3]" />
             </a>
 
             {/* Facebook Icon */}

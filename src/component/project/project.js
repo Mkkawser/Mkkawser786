@@ -9,32 +9,55 @@ const Project = () => {
         <p className="text-[25px] w-[80%] mx-auto pt-10 pb-6">
           My Some Recent Project
         </p>
-
-        <div className="relative">
-          <div className="w-[80%] mx-auto">
-            {/* Project Image */}
-            <img src={`/img/unsplash.jpg`} alt="project" />
-
+      </div>
+      <div className="bg-[#202b35]">
+        <div className="px-6 flex flex-col gap-5 min-[480px]:flex-row">
+          <div className="relative">
+            <img src={`/img/project-edu-app.png`} alt="project" />
             {/* Project Name & Link */}
-            <div className="absolute flex flex-col items-center bottom-0 mx-auto w-[80%] bg-[#9883834a]">
-              {/* Project Name */}
-              <p className="">NextJs Educational Site</p>
-
-              {/* Links github and live */}
-              <div className="flex gap-6 items-center justify-center">
-                {/* Github */}
-                <p>
+            <div className="flex flex-col items-center justify-center absolute bottom-0 bg-[#989890ac] w-full h-[60px]">
+              <p>NextJs Edu-App</p>
+              <div className="flex items-center justify-center gap-4">
+                <a
+                  href="https://github.com/Mkkawser/edu-app"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
                   <BsGithub />
-                </p>
-
-                {/* Live */}
-                <p>
+                </a>
+                <a
+                  href="https://clone-edu-app.netlify.app/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
                   <img
                     className="w-[25px]"
                     src="/img/live-icon.png"
                     alt="live"
                   />
-                </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="relative">
+            <img src={`/img/project-edu-app.png`} alt="project" />
+            {/* Project Name & Link */}
+            <div className="flex flex-col items-center justify-center absolute bottom-0 bg-[#989890ac] w-full h-[60px]">
+              <p>NextJs Edu-App</p>
+              <div className="flex items-center justify-center gap-4">
+                <BsGithub />
+                <img className="w-[25px]" src="/img/live-icon.png" alt="live" />
+              </div>
+            </div>
+          </div>
+          <div className="relative">
+            <img src={`/img/project-edu-app.png`} alt="project" />
+            {/* Project Name & Link */}
+            <div className="flex flex-col items-center justify-center absolute bottom-0 bg-[#989890ac] w-full h-[60px]">
+              <p>NextJs Edu-App</p>
+              <div className="flex items-center justify-center gap-4">
+                <BsGithub />
+                <img className="w-[25px]" src="/img/live-icon.png" alt="live" />
               </div>
             </div>
           </div>
